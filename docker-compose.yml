@@ -2,7 +2,7 @@ services:
   app:
     # Asegúrate de que esta sea la imagen de tu repo: hogwarts_backend_991
     image: ghcr.io/javiclase72-cloud/hogwarts_backend_991:latest
-    container_name: aaee_hogwarts_app_cba
+    container_name: aaee_hogwarts_app_jfm
     restart: always
     ports:
       - "8080:8080"
